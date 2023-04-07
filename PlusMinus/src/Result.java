@@ -6,6 +6,7 @@ import java.util.function.*;
 import java.util.regex.*;
 import static java.util.stream.Collectors.joining;
 import java.util.*;
+import java.util.stream.*;
 public class Result {
 
     /*
@@ -15,7 +16,18 @@ public class Result {
      */
 
     public static void plusMinus(List<Integer> arr) {
-        // Write your code here
-
+        long pluses = arr.stream()
+                .filter(n -> n > 0)
+                .count();
+        long minuses = arr.stream()
+                .filter(n -> n < 0)
+                .count();
+        long zeroes = arr.stream()
+                .filter(n -> n == 0)
+                .count();
+        DecimalFormat df = new DecimalFormat("0.000000");
+        System.out.println(df.format((double)pluses / arr.size()));
+        System.out.println(df.format((double)minuses / arr.size()));
+        System.out.println(df.format((double)zeroes / arr.size()));
     }
 }
