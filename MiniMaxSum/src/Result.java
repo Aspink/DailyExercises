@@ -19,7 +19,7 @@ public class Result {
      */
 
     public static void miniMaxSum(List<Integer> arr) {
-        Integer sum = 0;
+        Long sum = 0L;
         Integer xMin = arr.get(0);
         Integer xMax = xMin;
         for(Integer x : arr) {
