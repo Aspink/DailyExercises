@@ -10,7 +10,7 @@ import static java.util.stream.Collectors.toList;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+//        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -19,11 +19,11 @@ public class Solution {
                 .collect(toList());
 
         int result = Result.findMedian(arr);
-
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
+        System.out.println(String.valueOf(result));
+//        bufferedWriter.write(String.valueOf(result));
+//        bufferedWriter.newLine();
 
         bufferedReader.close();
-        bufferedWriter.close();
+//        bufferedWriter.close();
     }
 }
