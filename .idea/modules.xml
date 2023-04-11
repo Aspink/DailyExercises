@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DailyExercises.iml" filepath="$PROJECT_DIR$/DailyExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" filepath="$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Median/Median.iml" filepath="$PROJECT_DIR$/Median/Median.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" filepath="$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlusMinus/PlusMinus.iml" filepath="$PROJECT_DIR$/PlusMinus/PlusMinus.iml" />
