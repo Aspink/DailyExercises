@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CountingSort1/CountingSort1.iml" filepath="$PROJECT_DIR$/CountingSort1/CountingSort1.iml" />
       <module fileurl="file://$PROJECT_DIR$/DailyExercises.iml" filepath="$PROJECT_DIR$/DailyExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/DiagonalDifference/DiagonalDifference.iml" filepath="$PROJECT_DIR$/DiagonalDifference/DiagonalDifference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" filepath="$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Median/Median.iml" filepath="$PROJECT_DIR$/Median/Median.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" filepath="$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" />
