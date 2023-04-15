@@ -11,7 +11,6 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 public class Main {in(String[] args) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
     int q = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -33,16 +32,15 @@ public class Main {in(String[] args) throws IOException {
                 }
             });
 
-            int result = Result.flippingMatrix(matrix);
+            int result = MatrixFlipper.flippingMatrix(matrix);
 
-            bufferedWriter.write(String.valueOf(result));
-            bufferedWriter.newLine();
+            System.out.println(String.valueOf(result));
+            System.out.println();
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
     });
 
     bufferedReader.close();
-    bufferedWriter.close();
 }
 }
