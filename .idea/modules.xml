@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" filepath="$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlusMinus/PlusMinus.iml" filepath="$PROJECT_DIR$/PlusMinus/PlusMinus.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeConversion/TimeConversion.iml" filepath="$PROJECT_DIR$/TimeConversion/TimeConversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZigZagSequence/ZigZagSequence.iml" filepath="$PROJECT_DIR$/ZigZagSequence/ZigZagSequence.iml" />
     </modules>
   </component>
 </project>
