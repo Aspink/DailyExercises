@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class MatrixFlipper {
@@ -19,6 +18,11 @@ public class MatrixFlipper {
             }
         }
         return sum;
+    }
+
+    public static int max(List<List<Integer>> matrix, int i, int j) {
+        int indexMax = matrix.size() - 1;
+        return Math.max(Math.max(matrix.get(i).get(j), matrix.get(i).get(indexMax - j)), Math.max(matrix.get(indexMax - i).get(j), matrix.get(indexMax - i).get(indexMax - j)));
     }
 
 }
