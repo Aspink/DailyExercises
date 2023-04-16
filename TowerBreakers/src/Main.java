@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.stream.*;
+
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -13,7 +16,7 @@ public class Main {
 
                 int m = Integer.parseInt(firstMultipleInput[1]);
 
-                int result = Result.towerBreakers(n, m);
+                int result = TowerBreakers.towerBreakers(n, m);
 
                 bufferedWriter.write(String.valueOf(result));
                 bufferedWriter.newLine();
