@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" filepath="$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Median/Median.iml" filepath="$PROJECT_DIR$/Median/Median.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" filepath="$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PalindromeIndex/PalindromeIndex.iml" filepath="$PROJECT_DIR$/PalindromeIndex/PalindromeIndex.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlusMinus/PlusMinus.iml" filepath="$PROJECT_DIR$/PlusMinus/PlusMinus.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeConversion/TimeConversion.iml" filepath="$PROJECT_DIR$/TimeConversion/TimeConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/TowerBreakers/TowerBreakers.iml" filepath="$PROJECT_DIR$/TowerBreakers/TowerBreakers.iml" />
