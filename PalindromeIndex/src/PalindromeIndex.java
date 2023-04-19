@@ -26,5 +26,8 @@ public class PalindromeIndex {
         System.out.println("True");
         return true;
     }
+    public static String stringRemove(String string, int index) {
+        return string.substring(0, index).concat(string.substring(index + 1));
+    }
 
 }
