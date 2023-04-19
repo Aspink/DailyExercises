@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/DiagonalDifference/DiagonalDifference.iml" filepath="$PROJECT_DIR$/DiagonalDifference/DiagonalDifference.iml" />
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlippingTheMatrix/FlippingTheMatrix.iml" filepath="$PROJECT_DIR$/FlippingTheMatrix/FlippingTheMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GridChallenge/GridChallenge.iml" filepath="$PROJECT_DIR$/GridChallenge/GridChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" filepath="$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Median/Median.iml" filepath="$PROJECT_DIR$/Median/Median.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" filepath="$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" />
