@@ -1,25 +1,13 @@
 public class PalindromeIndex {
-
-    /*
-     * Complete the 'palindromeIndex' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts STRING s as parameter.
-     */
-
     public static int palindromeIndex(String s) {
-        char[] chars = s.toCharArray();
         int badIndex = -1;
-        if(!isPalindrome(chars)) {
-            for(int i = 0; i < chars.length()/2; i++) {
-                if(chars[i] != chars[chars.length() - 1 - i]){
-                    if(chars[i+1] = chars[chars.length() - 1 - i]) {
+        if(!isPalindrome(s)) {
+            for(int i = 0; i <= s.length()/2; i++) {
+                if(s.charAt(i) != s.charAt(s.length() - 1 - i)) {
+                    if(isPalindrome(stringRemove(s, i))) {
                         badIndex = i;
-                    } else if (chars[i] = chars[chars.length() - 2 - i]) {
-                        badIndex = chars.length() - 1 - i;
-                    }
-                    if(!isPalindrome(chars)) {
-                        badIndex = -1;
+                    } else if (isPalindrome(stringRemove(s, s.length() - 1 - i))) {
+                        badIndex = s.length() - 1 - i;
                     }
                     return badIndex;
                 }
@@ -28,12 +16,15 @@ public class PalindromeIndex {
         return badIndex;
     }
 
-    public static  boolean isPalindrome(char[] chars) {
-        for(int i = 0; i < chars.length()/2; i++) {
-            if(chars[i] != chars[chars.length() - 1 - i]){
+    public static  boolean isPalindrome(String s) {
+        for(int i = 0; i < s.length()/2; i++) {
+            if(s.charAt(i) != s.charAt(s.length() - 1 - i)) {
+                System.out.println("False");
                 return false;
             }
         }
+        System.out.println("True");
         return true;
     }
+
 }
