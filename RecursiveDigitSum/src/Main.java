@@ -12,7 +12,7 @@ public class Main {
 
         int result = RecursiveDigitSum.superDigit(n, k);
 
-        System.out.println(String.valueOf(result));
+        System.out.println(result);
 
         bufferedReader.close();
     }
