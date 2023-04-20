@@ -3,7 +3,6 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
@@ -11,12 +10,10 @@ public class Main {
 
         int k = Integer.parseInt(firstMultipleInput[1]);
 
-        int result = Result.superDigit(n, k);
+        int result = RecursiveDigitSum.superDigit(n, k);
 
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
+        System.out.println(String.valueOf(result));
 
         bufferedReader.close();
-        bufferedWriter.close();
     }
 }
