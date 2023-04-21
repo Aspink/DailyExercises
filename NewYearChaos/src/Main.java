@@ -17,7 +17,7 @@ public class Main {
                         .map(Integer::parseInt)
                         .collect(toList());
 
-                Result.minimumBribes(q);
+                NewYearChaos.minimumBribes(q);
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
