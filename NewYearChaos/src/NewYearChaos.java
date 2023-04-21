@@ -13,7 +13,6 @@ public class NewYearChaos {
             bribes += personBribes;
         }
         System.out.println(bribes);
-        return;
     }
 
 }
