@@ -1,16 +1,19 @@
 import java.util.List;
 
 public class NewYearChaos {
-
-    /*
-     * Complete the 'minimumBribes' function below.
-     *
-     * The function accepts INTEGER_ARRAY q as parameter.
-     */
-
     public static void minimumBribes(List<Integer> q) {
-        // Write your code here
-
+        int bribes = 0;
+        for(int i = 0; i < q.size(); i++) {
+            int personBribes = q.get(i) - i;
+            if(personBribes < 0) personBribes = 0;
+            if(personBribes > 2) {
+                System.out.println("Too chaotic");
+                return;
+            }
+            bribes += personBribes;
+        }
+        System.out.println(bribes);
+        return;
     }
 
 }
