@@ -5,7 +5,6 @@ import static java.util.stream.Collectors.toList;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -23,12 +22,10 @@ public class Main {
             }
         });
 
-        int result = Result.truckTour(petrolpumps);
+        int result = TruckTour.truckTour(petrolpumps);
 
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
+        System.out.println(result);
 
         bufferedReader.close();
-        bufferedWriter.close();
     }
 }
