@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/RecursiveDigitSum/RecursiveDigitSum.iml" filepath="$PROJECT_DIR$/RecursiveDigitSum/RecursiveDigitSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeConversion/TimeConversion.iml" filepath="$PROJECT_DIR$/TimeConversion/TimeConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/TowerBreakers/TowerBreakers.iml" filepath="$PROJECT_DIR$/TowerBreakers/TowerBreakers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TruckTour/TruckTour.iml" filepath="$PROJECT_DIR$/TruckTour/TruckTour.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZigZagSequence/ZigZagSequence.iml" filepath="$PROJECT_DIR$/ZigZagSequence/ZigZagSequence.iml" />
     </modules>
   </component>
