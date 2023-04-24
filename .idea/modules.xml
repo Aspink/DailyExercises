@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/GridChallenge/GridChallenge.iml" filepath="$PROJECT_DIR$/GridChallenge/GridChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" filepath="$PROJECT_DIR$/LonelyInteger/LonelyInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Median/Median.iml" filepath="$PROJECT_DIR$/Median/Median.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MergeLinkedLists/MergeLinkedLists.iml" filepath="$PROJECT_DIR$/MergeLinkedLists/MergeLinkedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" filepath="$PROJECT_DIR$/MiniMaxSum/MiniMaxSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewYearChaos/NewYearChaos.iml" filepath="$PROJECT_DIR$/NewYearChaos/NewYearChaos.iml" />
       <module fileurl="file://$PROJECT_DIR$/PalindromeIndex/PalindromeIndex.iml" filepath="$PROJECT_DIR$/PalindromeIndex/PalindromeIndex.iml" />
