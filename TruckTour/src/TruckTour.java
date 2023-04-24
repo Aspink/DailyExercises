@@ -2,25 +2,21 @@ import java.util.List;
 
 public class TruckTour {
     public static int truckTour(List<List<Integer>> petrolpumps) {
-        boolean passed = false;
+        int n = petrolpumps.size();
+        int start = 0;
+        int fuel = 0;
         int i = 0;
-        while(!passed) {
-            int fuel = 0;
-            passed = true;
-            for(List<Integer> pump : petrolpumps) {
-                fuel += pump.get(0);
-                if(fuel < pump.get(1)) {
-                    passed =  false;
-                    petrolpumps.add(petrolpumps.get(0));
-                    petrolpumps.remove(0);
-                    i++;
-                    break;
-                }
+        while(i < n) {
+            fuel += petrolpumps.get(i).get(0);
+            if(fuel >= petrolpumps.get(i).get(1)) {
+                fuel -= petrolpumps.get(i).get(1);
+                i++;
+            } else {
+                start = i + 1;
+                fuel = 0;
+                i = start;
             }
-
-
         }
-        return  i;
-
+        return start;
     }
 }
