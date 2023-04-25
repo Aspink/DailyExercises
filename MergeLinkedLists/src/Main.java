@@ -58,8 +58,9 @@ public class Main {
      *
      */
     static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
-
-
+        SinglyLinkedListNode mergedHead = head1;
+        if(head1.data < head2.data) mergedHead = head2;
+        return mergedHead;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
