@@ -58,8 +58,15 @@ public class Main {
      *
      */
     static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
+        SinglyLinkedListNode current1 = head1;
+        SinglyLinkedListNode current2 = head2;
         SinglyLinkedListNode mergedHead = head1;
-        if(head1.data < head2.data) mergedHead = head2;
+        if(head1.data < head2.data) {
+            mergedHead = head2;
+            current2 = current2.next;
+        } else {
+            current1 = current1.next
+        }
         return mergedHead;
     }
 
