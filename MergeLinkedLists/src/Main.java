@@ -61,7 +61,7 @@ public class Main {
         SinglyLinkedList list = new SinglyLinkedList();
         SinglyLinkedListNode current1 = head1;
         SinglyLinkedListNode current2 = head2;
-        while (list.tail.next != null){
+        while (current1 != null && current2 != null){
             if(current1.data > current2.data) {
                 list.insertNode(current2.data);
                 current2 = current2.next;
@@ -70,7 +70,16 @@ public class Main {
                 current1 = current1.next;
             }
         }
-
+        SinglyLinkedListNode current;
+        if(current2 != null) {
+            current = current2;
+        } else {
+            current = current1;
+        }
+        while (current != null) {
+            list.insertNode(current.data);
+            current = current.next;
+        }
         return list.head;
     }
 
