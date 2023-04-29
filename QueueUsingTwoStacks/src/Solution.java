@@ -5,13 +5,25 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int tests = scanner.nextInt();
+        int queries = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        for (int testsItr = 0; testsItr < tests; testsItr++) {
-            SinglyLinkedList llist1 = new SinglyLinkedList();
+        for (int testsItr = 0; testsItr < queries; testsItr++) {
+            int query = scanner.nextInt();
+            switch (query) {
+                case 1:
 
-            int llist1Count = scanner.nextInt();
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                default:
+
+                    break;
+            }
             scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
             for (int i = 0; i < llist1Count; i++) {
